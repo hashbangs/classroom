@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{fullpage}
+\usepackage[version=4]{mhchem}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\parindent 0 px
+\pgfplotsset{compat=1.18}
+
+\title{Defining Chemistry and Balance}
+\author{solara}
+\date{\today}
+
+\newlength\myheight
+\newcommand*\ccircled[1]{\settowidth{\myheight}{#1}%
+\raisebox{-.1\myheight}{\tikz[baseline=(char.base)]{%
+\node[rounded corners,draw,minimum size=\myheight*\myheight*.4,inner sep=1pt](char){#1};}}}
+
+\def\catalyst{\ccircled{C}}
+
+\begin{document}
+
+  \maketitle
+
+  Studying the Transformation of matter (Reaction):\\
+  \ce{->} \textbf{through time}: chemical kinetics\\
+  \ce{->} \textbf{through space}: chemical engineering
+
+  \vspace{0.5cm}
+
+  Using a catalyst to increase the rate of a chemical reaction:
+
+  \begin{align}
+   \ce{A + B &-> D} \hspace{10pt} slow \\
+   \ce{A + B + \catalyst &-> E} \hspace{10pt} fast \\
+   \ce{E &-> D + \catalyst} \hspace{10pt} fast
+  \end{align}
+
+  A chemical reaction happens between atoms.\\
+  Chemistry is the preservation of the atom $\neq$ nuclear physics 
+
+  $$\ce{H2SO4 + 2NaCl -> Na2SO4 + 2HCl}$$
+
+\end{document}

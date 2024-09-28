@@ -1,12 +1,14 @@
 \documentclass{article}
 \usepackage{fullpage}
+\usepackage[a4paper, tmargin=12pt]{geometry}
 \usepackage[version=4]{mhchem}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage{float}
 \parindent 0 px
 \pgfplotsset{compat=1.18}
 
-\title{Defining Chemistry and Balance}
+\title{Defining Chemistry and Equilibrium}
 \author{solara}
 \date{\today}
 
@@ -39,5 +41,19 @@
   Chemistry is the preservation of the atom $\neq$ nuclear physics 
 
   $$\ce{H2SO4 + 2NaCl -> Na2SO4 + 2HCl}$$
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{osmosis}
+    \caption{\textsc{The goal of osmosis is equilibrium}}
+    \begin{center}I : high concentration solution\\II : low concentration solution\end{center}
+  \end{figure}
+
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\textwidth]{rutherford}
+    \caption{\textsc{Rutherford's model}}
+    \begin{center}the position of electrons in layers: 2 - 8 - 18 - 32\end{center}
+  \end{figure}
 
 \end{document}

@@ -1,9 +1,10 @@
 \documentclass{article}
 \usepackage{fullpage}
-\usepackage[a4paper, tmargin=12pt]{geometry}
+\usepackage[a4paper]{geometry}
 \usepackage[version=4]{mhchem}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage{subfigure}
 \usepackage{float}
 \parindent 0 px
 \pgfplotsset{compat=1.18}
@@ -44,16 +45,26 @@
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.4\textwidth]{osmosis}
-    \caption{\textsc{The goal of osmosis is equilibrium}}
-    \begin{center}I : high concentration solution\\II : low concentration solution\end{center}
+    \subfigure[]{\includegraphics[height=0.25\textwidth]{osmosis}}
+    \subfigure[]{\includegraphics[height=0.25\textwidth]{rutherford}}
+    \caption{\textsc{(a) The goal of osmosis is equilibrium (b) Rutherford's model}}
   \end{figure}
+
+  \begin{center}$I$ : high concentration solution\\$II$ : low concentration solution\end{center}
+  \begin{center}the position of electrons in layers: $2 - 8 - 18 - 32$\end{center}
+
+  \pagebreak
+
+  The lowest point of energy consumption within a system is the state of physical equilibrium.
+  Minimas are equilibrium points: The sum of vectorial forces is equal to 0.
+  The state of optimization of system is the abscence of fluctuation over time of certain parameters.
 
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.25\textwidth]{rutherford}
-    \caption{\textsc{Rutherford's model}}
-    \begin{center}the position of electrons in layers: 2 - 8 - 18 - 32\end{center}
+    \subfigure[]{\includegraphics[height=0.25\textwidth]{rollercoaster}}
+    \subfigure[]{\includegraphics[height=0.25\textwidth]{rollercoaster_02}}
+    \caption{\textsc{(a) rollercoasters (b) the minima is the stable equilibrium point}}
   \end{figure}
+
 
 \end{document}

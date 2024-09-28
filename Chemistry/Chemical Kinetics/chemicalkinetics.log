@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.27)  28 SEP 2024 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.27)  28 SEP 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**introduction.tex
-(./introduction.tex
+**chemicalkinetics.tex
+(./chemicalkinetics.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -412,51 +412,30 @@ Package pgfplots: loading complementary utilities for your pgf version...
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/usr/share/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
-\subfigtopskip=\skip67
-\subfigcapskip=\skip68
-\subfigcaptopadj=\dimen286
-\subfigbottomskip=\skip69
-\subfigcapmargin=\dimen287
-\subfiglabelskip=\skip70
-\c@subfigure=\count313
-\c@lofdepth=\count314
-\c@subtable=\count315
-\c@lotdepth=\count316
-
-****************************************
-* Local config file subfigure.cfg used *
-****************************************
-(/usr/share/texmf-dist/tex/latex/subfigure/subfigure.cfg)
-\subfig@top=\skip71
-\subfig@bottom=\skip72
-) (/usr/share/texmf-dist/tex/latex/float/float.sty
+))) (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count317
+\c@float@type=\count313
 \float@exts=\toks43
 \float@box=\box66
 \@float@everytoks=\toks44
 \@floatcapt=\box67
-)
-\myheight=\skip73
- (./introduction.aux)
-\openout1 = `introduction.aux'.
+) (./chemicalkinetics.aux)
+\openout1 = `chemicalkinetics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -467,14 +446,14 @@ LaTeX Font Info:    ... okay on input line 23.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* v-part:(T,H,B)=(12.0pt, 731.6402pt, 101.40665pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=418.25368pt
-* \textheight=591.5302pt
+* \textheight=731.6402pt
 * \oddsidemargin=17.3571pt
 * \evensidemargin=17.3571pt
-* \topmargin=29.13666pt
+* \topmargin=-60.26999pt
 * \headheight=0.0pt
 * \headsep=0.0pt
 * \topskip=10.0pt
@@ -493,20 +472,20 @@ LaTeX Font Info:    ... okay on input line 23.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Package chemgreek Info: Activating mapping `default' on line 23.
+Package chemgreek Info: Activating mapping `default' on line 15.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
-\scratchdimen=\dimen288
+\scratchcounter=\count314
+\scratchdimen=\dimen286
 \scratchbox=\box68
-\nofMPsegments=\count319
-\nofMParguments=\count320
+\nofMPsegments=\count315
+\nofMParguments=\count316
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count321
-\MPscratchDim=\dimen289
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen287
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
 \everyMPtoPDFconversion=\toks46
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -516,48 +495,27 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
-<osmosis.png, id=4, 77.088pt x 51.7935pt>
-File: osmosis.png Graphic file (type png)
-<use osmosis.png>
-Package pdftex.def Info: osmosis.png  used on input line 48.
-(pdftex.def)             Requested size: 155.64122pt x 104.56342pt.
-<rutherford.png, id=6, 60.225pt x 60.225pt>
-File: rutherford.png Graphic file (type png)
-<use rutherford.png>
-Package pdftex.def Info: rutherford.png  used on input line 49.
-(pdftex.def)             Requested size: 104.57375pt x 104.56342pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./osmosis.png> <./rutherford.png>]
-<rollercoaster.png, id=23, 96.36pt x 67.452pt>
-File: rollercoaster.png Graphic file (type png)
-<use rollercoaster.png>
-Package pdftex.def Info: rollercoaster.png  used on input line 64.
-(pdftex.def)             Requested size: 149.39023pt x 104.56342pt.
-<rollercoaster_02.png, id=24, 96.36pt x 84.315pt>
-File: rollercoaster_02.png Graphic file (type png)
-<use rollercoaster_02.png>
-Package pdftex.def Info: rollercoaster_02.png  used on input line 65.
-(pdftex.def)             Requested size: 119.50424pt x 104.56342pt.
- [2 <./rollercoaster.png> <./rollercoaster_02.png>] (./introduction.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./chemicalkinetics.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24416 strings out of 476076
- 630704 string characters out of 5793775
- 1936187 words of memory out of 5000000
- 46147 multiletter control sequences out of 15000+600000
- 562841 words of font info for 53 fonts, out of 8000000 for 9000
+ 24127 strings out of 476076
+ 625656 string characters out of 5793775
+ 1928187 words of memory out of 5000000
+ 45866 multiletter control sequences out of 15000+600000
+ 562232 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 84i,18n,93p,730b,1009s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on introduction.pdf (2 pages, 134256 bytes).
+ 84i,15n,93p,730b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on chemicalkinetics.pdf (1 page, 51233 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

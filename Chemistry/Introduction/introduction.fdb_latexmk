@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1727527042.92798 "introduction.tex" "introduction.pdf" "introduction" 1727527043.61565 0
+["pdflatex"] 1727527998.40813 "introduction.tex" "introduction.pdf" "introduction" 1727527999.09772 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1727349926 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1727349926 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1727349926 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -188,12 +188,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1727459967.96094 325518 3dff2bac5bde75cd7e600320ce8a00d6 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1727459948 7112997 0f6408d59d76af122546aab6384bcae4 ""
-  "introduction.aux" 1727527043.57606 822 4703962c49ae35e9b17818b63593ba07 "pdflatex"
+  "introduction.aux" 1727527999.06108 822 4703962c49ae35e9b17818b63593ba07 "pdflatex"
   "introduction.tex" 1727527041.58929 2890 dc7448da8593f1c25b5a8723a78561e4 ""
   "osmosis.png" 1727518386.26644 11769 01798eaaef450b2d15ec0030ad82893d ""
   "rollercoaster.png" 1727524542.32782 13862 6d7311ce29e4ab085c0894804aafbb7d ""
   "rollercoaster_02.png" 1727523280.8058 8108 47c9a093f7ded037006b7fdf74cddaa1 ""
-  "rutherford.png" 1727518998.36898 18120 a827a0fa18c8aa3d587a7ba1a59ff48a ""
+  "rutherford.png" 1727527998.13437 13037 ccb97087f904ccf8079687fb109a2141 ""
   (generated)
   "introduction.aux"
   "introduction.log"

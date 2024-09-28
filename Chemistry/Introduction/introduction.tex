@@ -5,8 +5,8 @@
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{subfigure}
+\usepackage{forest}
 \usepackage{float}
-\parindent 0 px
 \pgfplotsset{compat=1.18}
 
 \title{Defining Chemistry and Equilibrium}
@@ -51,7 +51,7 @@
   \end{figure}
 
   \begin{center}$I$ : high concentration solution\\$II$ : low concentration solution\end{center}
-  \begin{center}the position of electrons in layers: $2 - 8 - 18 - 32$\end{center}
+  \begin{center}the placement of electrons in layers: $2 - 8 - 18 - 32$\end{center}
 
   \pagebreak
 
@@ -66,5 +66,30 @@
     \caption{\textsc{(a) rollercoasters (b) the minima is the stable equilibrium point}}
   \end{figure}
 
+  \begin{center}
+    \begin{forest}
+      for tree=
+      { parent anchor=south,
+        child anchor=north,
+        fit=band,% spaces the tree out a little to avoid collisions
+        align=center
+      }
+      [equilibrium
+        [static
+          [nothing happens:\\all parameters remain constant
+            [even in details]
+          ]
+        ]
+        [dynamic
+          [""
+            [in details: two phenomenons\\compensate eachother very quickly]
+          ]
+        ]
+      ]
+    \end{forest}
+  \end{center}
+
+  An example of dynamic equilibrium: marriage and divorce statistics in a city.
+  The scale of the study influences the perception of it results.
 
 \end{document}

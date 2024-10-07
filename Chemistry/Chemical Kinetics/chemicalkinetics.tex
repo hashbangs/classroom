@@ -2,6 +2,7 @@
 \usepackage{fullpage}
 \usepackage[a4paper, tmargin=12pt]{geometry}
 \usepackage[version=4]{mhchem}
+\usepackage{amsmath}
 \usepackage{tikz}
 \usepackage{pgfplots}
 \usepackage{float}
@@ -16,4 +17,26 @@
 \maketitle
 Reaction rate:
 $$\ce{A + B <=> C + D}$$
+$$\ce{2H2 + O2 <=> 2H2O}$$
+
+$$\overrightarrow{forward\ rate}$$
+$$\overleftarrow{reverse\ rate}$$\\
+Reaction rate is characterized by the number of reactions per second. At equilibrium, the forward rate equals the reverse rate.
+
+$$\nu d = [A][B]$$\\
+Uppercase letters represent chemical components, lowercase letters are \textsc{the stoichiometric coefficient}.
+$$\nu d = k[A]^a[B]^b$$
+$$\nu i = k'[C]^c[D]^d$$\\
+The constant $k$ relies on the affinity between $A$ and $B$.
+The constant $k'$ relies on the affinity between $C$ and $D$.
+
+$$\nu d = \nu i$$
+$$k[A]^a[B]^b = k'[C]^c[D]^d$$
+$$\frac{k}{k'} = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
+$$\frac{k}{k'} = K$$
+
+The equilibrium constant $K$ is a value unique to each reaction. The higher the value of $K$, the higher the reaction rate is.
+
+$$\ce{4Fe + 3O2 -> 2Fe2O3}$$
+$$\ce{CH4 + 2O2 -> CO2 + 2H2O}$$
 \end{document}
